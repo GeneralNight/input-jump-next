@@ -1,0 +1,37 @@
+.titleBox {
+    margin-top: 40px;
+}
+
+.contentBox {
+    margin-top: 60px;
+}
+
+.inputsContainer {
+    gap: 16px;
+}
+
+.inputsContainer input[type='number'] {
+    gap: 16px;
+    width: 40px;
+}
+
+.inputsContainer input[type='number']:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.isDisabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
