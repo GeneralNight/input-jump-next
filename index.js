@@ -23,7 +23,7 @@ const sendCode = () => {
         return inputControl.value 
     }).join("")
 
-    console.log(finalCode)    
+    alert(`SEU CÓDIGO DE ACESSO É: ${finalCode}`)    
 }
 
 const verifyCodeIsAvailableToSend = () => {
